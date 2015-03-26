@@ -1,0 +1,8 @@
+#+TITLE: my Dirty Shell scripts
+#+DESCRIPTION: My collxn of dirty shell hacks
+#+DATE: Thursday, Mar 26 2015
+#+STARTUP: overview
+#+OPTIONS: num:nil toc:nil H:1
+
+
+ I love fooling with tools; this is how i end up with this dirty codes
