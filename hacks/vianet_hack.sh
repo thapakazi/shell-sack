@@ -27,6 +27,7 @@ if [ ! -s $CREDENTIAL_FILE ]; then
 	#feedback msg
 	echo "Credentials are cached in '$CREDENTIAL_FILE' for future use"
 	echo "curl even takes time, :( need optimisation..."
+	echo
 
 fi
 
@@ -34,7 +35,7 @@ fi
 source $CREDENTIAL_FILE
 
 # # cookie to bake into
-COOKIE_FILENAME=cookies.txt
+COOKIE_FILENAME=/tmp/cookies.txt
 
 # # login url for the server
 LOGIN_URL='https://customers.vianet.com.np/customerportal/customers/login'
